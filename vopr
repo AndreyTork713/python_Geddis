@@ -1,0 +1,6 @@
+def main():
+    print('Куда делся файл?')
+if __name__ == "__main__":
+    main()
+
+
