@@ -17,11 +17,10 @@ def get_values():
     values = []
     again = 'y'
     while again == 'y':
-        for value in values:
-            value = input('Введите значение от 1 до 10: ')
-            values.append(value)
-            again = input('Continue y/n: ')
-            print()
+        value = int(input('Введите значение от 1 до 10: '))
+        values.append(value)
+        again = input('Continue y/n: ')
+        print()
     return values
 
 
