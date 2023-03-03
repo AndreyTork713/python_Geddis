@@ -27,6 +27,5 @@ def main():
     print(f'list_31: {list_31}')
 
 
-
 if __name__ == '__main__':
     main()
